@@ -4,7 +4,7 @@ import store from "@/store/store"
 @Module({dynamic: true, store, name: "DefaultModule"})
 export default class DrawerModule extends VuexModule {
   
-  drawer:boolean = false
+  drawer = false
 
   @Mutation
   toggle(){

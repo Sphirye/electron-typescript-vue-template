@@ -26,7 +26,7 @@ import LoadingComponent from "@/components/LoadingComponent.vue"
 
 export default class App extends Vue {
 
-  isLoading: boolean = true
+  isLoading = true
 
   mounted () {
     setTimeout(() => {

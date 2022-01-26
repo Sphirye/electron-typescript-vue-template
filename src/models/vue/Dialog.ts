@@ -2,7 +2,7 @@ export default class Dialog {
 
   title?: string = undefined
   body?: string = undefined
-  callback = function() { }
+  callback: any = function() { }
 
   constructor(title: string, body: string, callback: any) {
       this.title = title
